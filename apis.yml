@@ -1,8 +1,14 @@
 aid: cylake
 name: Cylake
-description: 'Cylake is a company surfaced as a portfolio company of greylock and added to the API Evangelist
-  network as a stub for enrichment. Sector: cybersecurity. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Cylake is an AI-native cybersecurity company founded in 2026 by Nir Zuk, Wilson Xu, and
+  Ehud (Udi) Shamir — veterans of Palo Alto Networks — to deliver complete, data-driven security for the
+  world''s largest and most regulated organizations that require total data sovereignty. Its platform
+  combines hardware and software with agentic workflows on a single, sovereign data foundation, running
+  on-premises or in a private cloud with no dependence on public cloud or external AI services. Cylake
+  launched publicly in March 2026 with a $45M seed round led by Greylock Partners (with IQT participating),
+  is being built alongside several design partners, and plans general availability in early 2027. As of
+  this writing Cylake does not publish a public API, developer portal, or SDKs — this profile tracks the
+  company''s identity and public surface pending an API program.'
 url: https://raw.githubusercontent.com/api-evangelist/cylake/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - greylock
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cylake.com/wp-content/uploads/2026/02/pexels-photo-1439227-1.jpeg
 tags:
 - Company
 - Cybersecurity
+- Security
+- AI
+- Data Sovereignty
+- On-Premises
+- Endpoint Security
+- Regulated Industries
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/cylake-domain-security.yml
 - type: Website
   url: https://cylake.com/
+- type: Blog
+  url: https://cylake.com/resources/
+- type: Support
+  url: https://cylake.com/contact-us/
+- type: PrivacyPolicy
+  url: https://cylake.com/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/cylake-ai/
+- type: Twitter
+  url: https://x.com/CylakeAI
+- type: YouTube
+  url: https://www.youtube.com/@Cylake_AI
+- type: Newsletter
+  url: https://cylake.substack.com/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
