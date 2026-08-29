@@ -10,6 +10,9 @@ description: 'Cylake is an AI-native cybersecurity company founded in 2026 by Ni
   this writing Cylake does not publish a public API, developer portal, or SDKs — this profile tracks the
   company''s identity and public surface pending an API program.'
 url: https://raw.githubusercontent.com/api-evangelist/cylake/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "As of this writing Cylake does not publish a public API, developer portal, or SDKs — this profile tracks the company's identity and public surface pending an API program."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
