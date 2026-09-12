@@ -2,10 +2,6 @@
   "repo": "cylake",
   "feeds": [
     {
-      "source": "https://cylake.com/feed/",
-      "error": "HTTPError"
-    },
-    {
       "source": "https://cylake.com/",
       "feed_url": "https://cylake.com/",
       "title": "",
@@ -14,5 +10,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-08-30T22:33:40Z"
+  "fetched": "2026-09-06T19:17:18Z"
 }
